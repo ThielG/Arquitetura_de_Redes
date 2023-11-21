@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/docker":{"type":"virtualbox","guestpath":"/home/vagrant/docker","hostpath":"C:/Users/Thiel/OneDrive/Desktop/trabalho-final/docker","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/Thiel/OneDrive/Desktop/trabalho-final","disabled":false,"__vagrantfile":true}}}

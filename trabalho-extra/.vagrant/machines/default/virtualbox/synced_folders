@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/guilherme":{"type":"virtualbox","guestpath":"/home/vagrant/guilherme","hostpath":"C:/Users/Thiel/OneDrive/Desktop/trabalho-extra/guilherme","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/Thiel/OneDrive/Desktop/trabalho-extra","disabled":false,"__vagrantfile":true}}}

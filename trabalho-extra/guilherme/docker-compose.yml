@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  ssh-server1:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ssh_server1
+    ports:
+      - "2222:22"  # Mapeia a porta 2222 do host para a porta 22 do container
+    hostname: server1
+
+  ssh-server2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ssh_server2
+    ports:
+      - "3333:22"  # Mapeia a porta 3333 do host para a porta 22 do container
+    hostname: server2
+

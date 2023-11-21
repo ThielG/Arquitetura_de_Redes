@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  apache:
+    image: httpd:2.4
+    container_name: apache_web
+    ports:
+      - "8080:80"
+    volumes:
+      - ./apache:/usr/local/apache2/htdocs
+
+  portainer:
+    image: portainer/portainer
+    container_name: portainer_web
+    ports:
+      - "9000:9000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx_web
+    ports:
+      - "8081:81"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/web:/usr/share/nginx/html
